@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: line-bot-go-echo
+  name: screening-bot
   env: go
   repo: https://github.com/softwaltz/go-colly-screeningkcg-bot.git
   buildCommand: go build -o app
